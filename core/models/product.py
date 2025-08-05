@@ -9,4 +9,3 @@ class Product(Base):
     product_code: Mapped[str]
     brand: Mapped[str]
     price: Mapped[int]
-    in_stock: Mapped[int]
